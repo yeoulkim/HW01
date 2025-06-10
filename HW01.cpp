@@ -22,7 +22,7 @@ double calculateAverage(int arr[], int size)
 int main() 
 { 
     const int SIZE = 5;      // 배열의 크기를 5로 고정
-    int numarr[SIZE];   // 배열 선언 -> 정수 5개를 저장할 수 있는 배열
+    int numarr[SIZE] = {};   // 크기가 5인 정수형 배열 선언 및 초기화
 
     cout << "숫자 5개를 입력하세요: ";
     for (int i = 0; i < SIZE; i++)
